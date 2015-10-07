@@ -1,4 +1,4 @@
-# Exercies for Programmers
+# Exercises for Programmers
 
 Working through the book [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers) along with some coworkers at CoverMyMeds.
 
