@@ -14,7 +14,7 @@ defmodule Ch3.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpotion, :exjsx]]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,10 @@ defmodule Ch3.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
+      {:httpotion, "~> 2.1.0"},
+      {:exjsx, "~> 3.2"}
+    ]
   end
 end
